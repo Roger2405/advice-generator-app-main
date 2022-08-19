@@ -23,7 +23,9 @@ main {
 .title {
     color: var(--neon-green);
     font-size: small;
+    margin: 0 auto;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .quote {
