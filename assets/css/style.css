@@ -1,0 +1,66 @@
+@import url(./_variaveis.css);
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--dark-blue);
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    height: inherit;
+}
+
+.main-content {
+    background-color: var(--dark-grayish-blue);
+    border-radius: 1rem;
+    width: min-content;
+    height: min-content;
+    margin: auto;
+    padding: 2rem;
+}
+
+.title {
+    color: var(--neon-green);
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.quote {
+    color: var(--light-cyan);
+    font-size: 1.75rem;
+    text-align: center;
+
+}
+
+#dividerImage {
+    margin-bottom: 2rem;
+}
+
+.div-button {
+    position: relative;
+}
+
+.button {
+    background-color: var(--neon-green);
+    border: none;
+    border-radius: 2rem;
+    height: 4rem;
+    width: 4rem;
+    position: absolute;
+    left: calc(50% - 2rem);
+    margin: auto;
+}
+.button:hover {
+    box-shadow: 0 0 2rem var(--neon-green);
+}
+
+.button img {
+    margin: auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .divider-image {
+        background-image: url(../../images/pattern-divider-mobile.svg);
+    }
+}
